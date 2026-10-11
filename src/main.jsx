@@ -1,7 +1,7 @@
-import React,{useEffect,useMemo,useRef,useState} from "react";
-import{createRoot}from"react-dom/client";
-import{Activity,ChevronDown,Pause,Play,Plus,RefreshCcw,Server,ShieldCheck,SlidersHorizontal,Trash2,Zap}from"lucide-react";
-import"./styles.css";
+import { Activity, ChevronDown, Pause, Play, Plus, RefreshCcw, Server, ShieldCheck, SlidersHorizontal, Zap } from "lucide-react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { createRoot } from "react-dom/client";
+import "./styles.css";
 
 const initial=[
 {id:1,name:"server-01",weight:5,cpu:42,connections:12,latency:72,requests:421,healthy:true},
